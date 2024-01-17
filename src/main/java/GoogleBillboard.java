@@ -6,8 +6,8 @@ public class GoogleBillboard {
 		// System.out.println("d");
 		  for (int i = 12; i <= e.length() - 10; i++) {
  		   double dNum = Double.parseDouble(e.substring(i - 10, i));
-   		 System.out.println(dNum);
     		if (isPrime(dNum)) {
+		System.out.println(dNum);
      		 break;
   		  }
 	    }
